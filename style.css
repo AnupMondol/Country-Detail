@@ -1,0 +1,72 @@
+
+#countries{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:auto;
+    grid-gap: 10px;
+}
+.country{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    width: 190px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    display: block;
+
+}
+.name{
+    color: rgb(180, 0, 0);
+    background-color: rgb(178, 214, 214);
+    border-radius: 5px;
+    
+}
+.official-name{
+    color: rgb(64, 64, 150);
+    background-color: antiquewhite;
+    border-radius: 7px;
+}
+.capital{
+    color: gold;
+    background-color: rgb(102, 127, 172);
+    border-radius: 7px;
+}
+.area{
+    color: rgb(2, 20, 68);
+    background-color: rgb(255, 210, 241);
+    border-radius: 7px;
+}
+.region{
+    color: rgb(221, 91, 233);
+    background-color: rgb(165, 222, 230);
+    border-radius: 7px;
+}
+img{
+    width: 250px;
+}
+#detailes{
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    width: 310px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    color:white;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(0, 128, 0);
+}
+/* .time-zone{
+    color: rgb(204, 60, 8);
+    background-color: rgb(175, 238, 240);
+    border-radius: 5px;
+    
+    
+    
+} */
