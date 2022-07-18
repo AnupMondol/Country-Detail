@@ -69,10 +69,10 @@ const renderCountryInfo = country => {
     <h2 class = "capital"> Capital : ${capital}.</h2>
     <h2 class = "official-name"> Population : ${country.population}.</h2>
     <h2 class = "area"> Area : ${country.area}.</h2>
-    <h2 class = "region">  : ${country.region}.</h2>
+    <h2 class = "region"> Region : ${country.region}.</h2>
     <img src = "${flag.png}">
     `;
-    
+
     countryDiv.innerHTML = name;
 
     countryDiv.style.display = ('block');
